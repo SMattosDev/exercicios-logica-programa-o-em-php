@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>formulário</title>
+</head>
+
+<body>
+
+    <form method="POST" action="ex28.php">
+        Tipo de carne:<br>
+        <input type="radio" name="carne" value="file" required> Filé Duplo<br>
+        <input type="radio" name="carne" value="alcatra"> Alcatra<br>
+        <input type="radio" name="carne" value="picanha"> Picanha<br><br>
+
+        Quantidade (em kg):<br>
+        <input type="number" name="quantidade" required><br><br>
+
+        Pagamento com cartão Tabajara?<br>
+        <input type="radio" name="cartao" value="sim" required> Sim
+        <input type="radio" name="cartao" value="nao"> Não<br><br>
+
+        <input type="submit" value="verificar">
+    </form>
+
+</body>
+
+</html>
